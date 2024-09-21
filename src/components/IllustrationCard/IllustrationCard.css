@@ -1,0 +1,35 @@
+/* src/index.css or src/App.css */
+/* Normally we should add through the index.css file. */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.illustration-card {
+  text-align: center;
+  display: inline-block;
+  padding: 8px;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.illustration-card img {
+  border-radius: 8px;
+}
+
+.illustration-title {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #555;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Hover effect */
+.hovered {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.hovered .illustration-image {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
